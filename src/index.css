@@ -1,0 +1,49 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&family=Khula:wght@300;400;600;700;800&family=Libre+Franklin:ital,wght@0,100..900;1,100..900&display=swap");
+
+:root {
+  font-family: "Heebo", sans-serif;
+  background: #0e0e0e;
+  color: #ffffff;
+}
+
+h1 {
+  font-family: "Libre Franklin", sans-serif;
+  margin: 5px;
+  transition: all 0.5s ease-in
+}
+
+h1:hover {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.350));
+}
+
+h2,
+h3,
+h4 {
+  font-family: "Khula", sans-serif;
+  margin: 5px;
+  transition: all 0.5s ease-in
+}
+
+h2:hover,
+h3:hover,
+h4:hover {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.350));
+}
+
+p {
+  margin: 5px;
+  transition: all 0.5s ease-in
+}
+
+p:hover {
+  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.350));
+}
+
+a {
+  color: inherit;
+  transition: all 0.3s cubic-bezier(0.19, 1, 0.22, 1);
+}
+
+a:hover {
+  color: lightblue;
+}
