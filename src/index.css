@@ -8,7 +8,7 @@
 
 h1 {
   font-family: "Libre Franklin", sans-serif;
-  margin: 5px;
+  margin: 10px 5px;
   transition: all 0.5s ease-in
 }
 
@@ -32,11 +32,8 @@ h4:hover {
 
 p {
   margin: 5px;
+  max-width: 600px;
   transition: all 0.5s ease-in
-}
-
-p:hover {
-  filter: drop-shadow(0 0 2px rgba(255, 255, 255, 0.350));
 }
 
 a {
@@ -46,4 +43,9 @@ a {
 
 a:hover {
   color: lightblue;
+}
+
+blockquote {
+  border-left: 3px solid #1f1f1f;
+  padding-left: 15px;
 }
